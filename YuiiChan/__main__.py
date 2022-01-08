@@ -105,7 +105,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/69a84b4548087b06afef4.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/2e08f76b2f76b8554868b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
@@ -212,7 +212,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Yui-Chan to your group",
+                                text="Add  Phoenix ",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
                                 text="Support Group", url=f"t.me/{SUPPORT_CHAT}"
                             ),
                             InlineKeyboardButton(
-                                text="Source Code", url="github.com/rshero/YuiiChan"
+                                text="OWNER", url="https://t.me/jaihindupuram_king"
                             ),
                         ],
                     ]
